@@ -34,6 +34,12 @@ img {
   display: block;
   max-width: 100%;
 }
+<!--added for the borders and cont-->
+form{
+  border:solid #221818;
+  padding: 40px;
+  width: 260px;
+}
 
 a:focus-visible,
 button:focus-visible {
@@ -41,6 +47,21 @@ button:focus-visible {
   outline-offset: 2px;
 }
 
+textarea {
+  resize: none;
+}
+.get{
+  border:solid #C2410C;
+  padding: 0.20cm;
+}
+.classfrom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+  gap: 50px;  
+  height: 100vh; 
+}
 .conteneur {
   width: 100%;
   max-width: 1200px;
