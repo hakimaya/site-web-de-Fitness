@@ -51,8 +51,9 @@ textarea {
   resize: none;
 }
 .get{
-  border:solid #C2410C;
+  border:solid #FF6B2C;
   padding: 0.20cm;
+  border-radius: 20px;
 }
 .classfrom {
   display: flex;
