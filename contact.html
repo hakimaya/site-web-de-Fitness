@@ -15,7 +15,7 @@
 <body>
     <header class="en-tete">
     <div class="conteneur en-tete-contenu">
-      <a href="index.html" class="logo">Élan Fitness</a>
+       <img src="img/logo-complet.svg" alt="Website logo"></a>
 
       <nav aria-label="Navigation principale">
         <ul class="menu">
@@ -43,12 +43,15 @@
             <label for="name">Full name</label>
             <input id="data" type="text" name ="username" placeholder="Votre nom complet"/>
             <label for="mail">Email adrress</label>
-            <input id="data" type="text" name="email" placeholder="Votre adresse email"/>
+            <input id="data" type="text" name="email" placeholder="Votre adresse email" required/>
             <label for="subject">subject</label>
             <input id="data" name="subjectofcontact" type="text" placeholder="Sujet de votre message"/>
             <div class="subjectform">
               <label for="Messqge">Votre Message</label>
               <textarea id="last" name="text" type="text" placeholder="Tapez votre message ici..."></textarea>
+              <div class="boutons">
+              <button type="button" onclick="alert('Thank you for reaching us, our team will contact you soon.')">Submit</button>
+              </div>
             </div>
             </div>
           </form>
@@ -61,6 +64,7 @@
     </main>
     <footer class="pied-de-page">
     <div class="conteneur">
+
       <div class="pied-haut">
         <div>
           <p class="logo logo-clair">Élan Fitness</p>
@@ -72,6 +76,8 @@
             <li><a href="index.html">Accueil</a></li>
             <li><a href="apropos.html">À propos</a></li>
             <li><a href="programmes.html">Programmes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
           </ul>
         </nav>
       </div>
