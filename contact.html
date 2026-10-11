@@ -38,19 +38,19 @@
           <h2 class="text">Communiquez avec nous</h2>
           <p class="texte">Nous serions ravis d'avoir de vos nouvelles. Envoyez-nous un message!</p>
 
-          <form action="#" method="post">
+          <form action="#" method="get">
             <div class = "wrappinputs">
             <label for="name">Nom complet</label>
-            <input id="data" type="text" name ="username" placeholder="Votre nom complet"/>
+            <input id="name" type="text" name ="username" placeholder="Votre nom complet"/>
             <label for="mail">Adrress mail</label>
-            <input id="data" type="text" name="email" placeholder="Votre adresse email" required/>
+            <input id="mail" type="email" name="email" placeholder="Votre adresse email" required/>
             <label for="subject">Suject</label>
-            <input id="data" name="subjectofcontact" type="text" placeholder="Sujet de votre message"/>
+            <input id="subject" name="subjectofcontact" type="text" placeholder="Sujet de votre message"/>
             <div class="subjectform">
-              <label for="Messqge">Votre Message</label>
-              <textarea id="last" name="text" type="text" placeholder="Tapez votre message ici..."></textarea>
+              <label for="message">Votre Message</label>
+              <textarea id="message" name="text" type="text" placeholder="Tapez votre message ici..."></textarea>
               <div class="boutons">
-              <button type="button" onclick="alert('Thank you for reaching us, our team will contact you soon.')">Submit</button>
+              <button type="submit" onclick="alert('Thank you for reaching us, our team will contact you soon.')">Submit</button>
               </div>
             </div>
             </div>
