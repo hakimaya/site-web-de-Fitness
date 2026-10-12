@@ -538,73 +538,61 @@ button:focus-visible {
   color: #94A3B8;
 }
 
-.classfrom
-{
+.classfrom {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
   border: solid 2px #FF6B2C;
   border-radius: 10px;
-  width: 600px;
-  gap: 20px;
-  margin: 0 auto;
-  align-items: center;
-  padding: 30px 0;
-}
-.classfrom label,input,textarea{
-  display: block;
-}
-.classfrom label{
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
 }
 
-.classfrom input,textarea{
+.classfrom label {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.classfrom input,
+.classfrom textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 20px 0 15px;
   border: solid 2px #FF6B2C;
   border-radius: 10px;
-  margin: 5px;
-  padding: 10px;
-}
-main {
-  flex: 1; 
-  padding: 40px 0; 
-}
-.texte {
   font-family: 'Inter', Arial, sans-serif;
+}
+
+.classfrom textarea {
+  height: 150px;
+  resize: none;
+}
+
+.classfrom button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 24px;
+  border: solid 2px #FF6B2C;
+  border-radius: 12px;
+  background-color: #FF6B2C;
+  font-family: 'Poppins', Arial, sans-serif;
+  cursor: pointer;
+}
+
+.texte {
   text-align: center;
   color: #4B5563;
   margin-bottom: 20px;
 }
-.wrappinputs label {
-  font-family: 'Inter', Arial, sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  display: block;
-  text-align: center;
-}
-.classfrom input, 
-.classfrom textarea{
-  box-sizing: border-box;
-  width: 400px;
-  padding: 12px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  font-family: 'Inter', Arial, sans-serif;
-  resize: none;
-}
-.classfrom textarea{
-  height: 150px;
-}
-.classfrom button{
-  border: solid 2px #FF6B2C;
-  border-radius: 12px;
-  height:50px;
-  width: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto ;
-  font-family: 'Poppins', Arial, sans-serif;
-  background-color: #FF6B2C;
-  cursor: pointer;
 
+main {
+  padding: 40px 24px;
 }
